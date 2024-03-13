@@ -58,13 +58,15 @@ The complete dataset can be found [here](https://www.drivendata.org/competitions
 
 1. Preprocess the data to handle missing values, encode categorical variables, and prepare it for model training.
 2. Conduct data visualizations aligned with the research questions to gain insights into the relationships between variables.
-3. Build classification models, including clustering and binary classification, to predict vaccination patterns and compare their performance.
+3. Build classification models to predict vaccination patterns and compare their performance.
 
 ## Model Evaluation:
 
+### Class of Models:
+- **Supervised learning:** Since we are dealing with a dataset where instances are given with known labels and we are trying to predict on unknown labels, using this class of models allows for better and more accurate prediction results.
 ### Algorithms:
 
-- **K-means Clustering**: This algorithm plays a crucial role in identifying patterns within the dataset. By grouping similar observations together, it provides valuable insights about the structures and relationships present within the dataset.
+- **K Nearest Neighbors**: This is a versatile algorithm that is used for prediction by classifying data points on the similarity of their neighbors. It is a lazy learning algorithm since it stores the entire training dataset and only computes prediction when needed which makes it suitable for handling noisy and linear data without making assumptions about the data structure.
 - **Random Forest (RF)**: This algorithm constructs multiple decision trees by utilizing random subsets of both data and features. These trees collectively contribute to the final prediction by each casting a vote for a particular class. The class receiving the most votes is then chosen to be the predicted class, providing a conclusive outcome. By employing this method, RF decreases the chances of overfitting and enhances the model's accuracy at the same time.
 
 ### Evaluation Metrics:
