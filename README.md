@@ -10,9 +10,16 @@ The National 2009 H1N1 Flu Survey conducted in the United States provided valuab
 ## Research Questions:
 
 1. Can we predict individuals' vaccination status based on their socio-demographic characteristics, opinions, and health behaviors?
-2. Do higher income individuals tend to receive vaccinations more than lower income individuals?
-3. Are individuals with higher education levels more inclined to get vaccinated?
-4. What is the proportion of the population vaccinated against H1N1 compared to seasonal flu?
+2. What features influence the prediction more? (Feature importance for information gain, reduction entropy measurement)
+3. What is the proportion of the population vaccinated against H1N1 compared to seasonal flu?
+
+Notes from the project lab: 
+
+   Broaden research questions 2 and 3 
+    - What features influence the prediction more? (Feature importance for information gain, reduction entropy measurement)
+    - shapley values
+Encode categorical features
+    - scikit learn for feature importance
 
 ## Dataset Characteristics:
 
