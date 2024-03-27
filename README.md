@@ -13,13 +13,6 @@ The National 2009 H1N1 Flu Survey conducted in the United States provided valuab
 2. What features influence the prediction more? (Feature importance for information gain, reduction entropy measurement)
 3. What is the proportion of the population vaccinated against H1N1 compared to seasonal flu?
 
-Notes from the project lab: 
-
-   Broaden research questions 2 and 3 
-    - What features influence the prediction more? (Feature importance for information gain, reduction entropy measurement)
-    - shapley values
-Encode categorical features
-    - scikit learn for feature importance
 
 ## Dataset Characteristics:
 
