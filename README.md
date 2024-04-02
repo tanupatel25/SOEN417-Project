@@ -11,7 +11,7 @@ The National 2009 H1N1 Flu Survey conducted in the United States provided valuab
 
 1. Can we predict individuals' vaccination status based on their socio-demographic characteristics, opinions, and health behaviors?
 2. What features influence the prediction more? (Feature importance for information gain, reduction entropy measurement)
-3. What is the proportion of the population vaccinated against H1N1 compared to seasonal flu?
+
 
 
 ## Dataset Characteristics:
